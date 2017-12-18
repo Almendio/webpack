@@ -7,6 +7,13 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+import vueBulmaComponents from 'vue-bulma-components'
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
+require('./assets/main.scss')
+
+Vue.use(vueBulmaComponents)
+Vue.component('fa', Icon)
 
 Vue.config.productionTip = false
 

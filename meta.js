@@ -50,6 +50,117 @@ module.exports = {
         },
       ],
     },
+    bulmaTheme: {
+      type: 'list',
+      message: 'Bulmaswatch theme',
+      choices: [
+        {
+          name: 'Cerulean - A calm blue sky',
+          value: 'cerulean',
+          short: 'cerulean',
+        },
+        {
+          name: 'Cosmo - An ode to Metro',
+          value: 'cosmo',
+          short: 'cosmo',
+        },
+        {
+          name: 'Cyborg - Jet black and electric blue',
+          value: 'cyborg',
+          short: 'cyborg',
+        },
+        {
+          name: 'Darkly - Flatly in night-mode',
+          value: 'darkly',
+          short: 'darkly',
+        },
+        {
+          name: 'Default - Bulma as-is',
+          value: 'default',
+          short: 'default',
+        },
+        {
+          name: 'Flatly - Flat and thick',
+          value: 'flatly',
+          short: 'flatly',
+        },
+        {
+          name: 'Journal - Crisp like a new sheet of paper',
+          value: 'journal',
+          short: 'journal',
+        },
+        {
+          name: 'Litera - The medium is the message',
+          value: 'litera',
+          short: 'litera',
+        },
+        {
+          name: 'Lumen - Light and shadow',
+          value: 'lumen',
+          short: 'lumen',
+        },
+        {
+          name: 'Lux - A touch of class',
+          value: 'lux',
+          short: 'lux',
+        },
+        {
+          name: 'Materia - Material is the metaphor',
+          value: 'materia',
+          short: 'materia',
+        },
+        {
+          name: 'Minty - A fresh feel',
+          value: 'minty',
+          short: 'minty',
+        },
+        {
+          name: 'Pulse - A trace of purple',
+          value: 'pulse',
+          short: 'pulse',
+        },
+        {
+          name: 'Sandstone - A touch of warmth',
+          value: 'sandstone',
+          short: 'sandstone',
+        },
+        {
+          name: 'Simplex - Mini and minimalist',
+          value: 'simplex',
+          short: 'simplex',
+        },
+        {
+          name: 'Slate - Shades of gunmetal gray',
+          value: 'slate',
+          short: 'slate',
+        },
+        {
+          name: 'Solar - A spin on Solarized',
+          value: 'solar',
+          short: 'solar',
+        },
+        {
+          name: 'Spacelab - Silvery and sleek',
+          value: 'spacelab',
+          short: 'spacelab',
+        },
+        {
+          name: 'Superhero - The brave and the blue',
+          value: 'superhero',
+          short: 'superhero',
+        },
+        {
+          name: 'United - Ubuntu orange and unique font',
+          value: 'united',
+          short: 'united',
+        },
+        {
+          name: 'Yeti - A friendly foundation',
+          value: 'yeti',
+          short: 'yeti',
+        },
+      ],
+    },
     router: {
       type: 'confirm',
       message: 'Install vue-router?',

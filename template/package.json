@@ -25,7 +25,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"{{#router}},
+    "bulma": "^0.6.1",
+    "bulmaswatch": "^0.5.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.2",
+    "vue-awesome": "^2.3.4",
+    "vue-bulma-components": "^1.5.0"{{#router}},
     "vue-router": "^3.0.1"{{/router}}
   },
   "devDependencies": {
