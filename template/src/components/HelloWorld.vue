@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <b-title>{{ msg }}</b-title>
+    <b-title>\{{ msg }}</b-title>
     <b-title class="is-2">Essential Links</b-title>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
